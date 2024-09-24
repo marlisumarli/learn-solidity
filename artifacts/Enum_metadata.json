@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum Enum.FreshJuiceSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getDefaultChoice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setLarge",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Enum.sol": "Enum"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Enum.sol": {
+			"keccak256": "0xbc279c2ebce3a8a206833122a5bd2f75943724c9ef82ae36aa2f2621133e825e",
+			"urls": [
+				"bzz-raw://a9bb557df28098b3287191e21bce97cb6346ea7b5fc52062159345a119336496",
+				"dweb:/ipfs/QmQnq3e9GE63znyC9XEVcaCNWL1PRmaoLusgNpRaWnjs3H"
+			]
+		}
+	},
+	"version": 1
+}

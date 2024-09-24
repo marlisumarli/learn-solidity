@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "testArray",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Array.sol": "ArrayOnSol"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Array.sol": {
+			"keccak256": "0xff56b37e373be8503af8ac9792bad303a8b9911a67359a7c7c82e158d8cac397",
+			"urls": [
+				"bzz-raw://4a986fc6915c3a10c036daae39958c4158234cfa2eec32cb7db3ad6cc909613a",
+				"dweb:/ipfs/QmVjzhy6yYrefSpM8VAuymPoWbBFkvbDPjwNQPHbrkPLhU"
+			]
+		}
+	},
+	"version": 1
+}
