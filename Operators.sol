@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.0;
 
 contract SolidityTest {
     uint storedData;
@@ -7,7 +7,7 @@ contract SolidityTest {
         storedData = 10;
     }
 
-    function getResult() public view returns (string memory) {
+    function getResult() public pure returns (string memory) {
         uint a = 1;
         uint b = 2;
         uint result = a + b;
@@ -32,7 +32,7 @@ contract SolidityTest {
         uint k = len - 1;
 
         while (_i != 0){
-            bstr[k--] = byte(uint8(48 + _i % 10));
+            bstr[k--] = bytes1(uint8(48 + _i % 10));
             _i /= 10;
         }
 
